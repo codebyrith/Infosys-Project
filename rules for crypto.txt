@@ -1,0 +1,197 @@
+Total allocation = 100%
+No asset > 60%
+At least 2 assets per mix
+score = portfolio_eta - (risk * 0.5)
+
+# 📘 CRYPTO INVESTMENT MANAGER – SIMPLE NOTES
+
+---
+
+# 1️⃣ Daily Return
+
+**What it means:**
+
+How much the price changed in one day.
+
+**Formula:**
+
+```
+(today price - yesterday price) / yesterday price
+```
+
+If positive → price increased
+If negative → price decreased
+
+---
+
+# 2️⃣ Average Daily Return
+
+**What it means:**
+
+Average growth per day over many days.
+
+It tells:
+
+👉 On average, how much this crypto grows daily.
+
+---
+
+# 3️⃣ Total Return
+
+**What it means:**
+
+Overall growth from first day to last day.
+
+```
+(last price - first price) / first price
+```
+
+This shows total profit percentage.
+
+---
+
+# 4️⃣ Risk (Standard Deviation)
+
+**What it means:**
+
+How much price moves up and down.
+
+Big movement → High risk
+Small movement → Low risk
+
+---
+
+# 5️⃣ Base ETA (Future Prediction)
+
+**What it means:**
+
+If past trend continues, how much it may grow in next 30 days.
+
+```
+average daily return × 30 days
+```
+
+Simple future guess.
+
+---
+
+# 6️⃣ Recent Trend
+
+**What it means:**
+
+Average growth of last 7 days.
+
+Shows short-term movement.
+
+---
+
+# 7️⃣ Adjusted ETA
+
+**What it means:**
+
+Future prediction using:
+
+* Long-term average
+* Recent short-term trend
+
+It mixes both to give better prediction.
+
+If positive → price may increase
+If negative → price may decrease
+
+---
+
+# 8️⃣ Weighted Return (Portfolio)
+
+When we invest in 3 cryptos:
+
+Example:
+40% BTC
+30% ETH
+30% BNB
+
+Weighted return means:
+
+Total expected return of full investment.
+
+It combines all three returns.
+
+---
+
+# 9️⃣ Weighted ETA
+
+Total expected future growth of full portfolio.
+
+---
+
+# 🔟 Weighted Risk
+
+Total risk of full portfolio.
+
+If portfolio has risky coins → risk increases.
+
+---
+
+# 1️⃣1️⃣ Score (How Best Mix Is Chosen)
+
+Your formula:
+
+```
+Score = Weighted ETA − (Weighted Risk × 0.5)
+```
+
+Meaning:
+
+More future growth → good
+More risk → bad
+
+System chooses mix with highest score.
+
+---
+
+# 1️⃣2️⃣ Risk Levels
+
+Based on price movement:
+
+High movement → HIGH risk
+Medium movement → MEDIUM risk
+Low movement → LOW risk
+
+---
+
+# 1️⃣3️⃣ Trend
+
+If Adjusted ETA > 0 → UPWARD trend
+If Adjusted ETA < 0 → DOWNWARD trend
+
+---
+
+# 1️⃣4️⃣ Investment Mix
+
+Mix means:
+
+How you divide money between cryptos.
+
+Example:
+
+40% BTC
+0% BTC
+60% ETH
+
+System tests many combinations and picks best one.
+
+---
+
+# 1️⃣5️⃣ Email Alert
+
+System sends email if:
+
+* Risk becomes HIGH
+  OR
+* Trend becomes DOWNWARD
+
+---
+
+
+
+
